@@ -1,4 +1,22 @@
-The repository contains the code I used in my diseratation thesis.
+The repository contains the code used in my dissertation thesis.  
+It includes separate Jupyter notebooks for each architecture and each task type (**classification vs. regression**).  
+
+### Machine Learning Architectures
+Two machine learning architectures are compared:  
+- A **baseline** derived from the ARMED framework (Nguyen et al., 2023)  
+- An **improved version** proposed in this work, using a **Kolmogorov–Arnold Network (KAN) backbone**  
+
+**Citation for ARMED:**  
+Nguyen, K. P., Treacher, A. H., & Montillo, A. A. (2023). *Adversarially-regularized mixed effects deep learning (ARMED) models improve interpretability, performance, and generalization on clustered (non-iid) data.* IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(7), 8081–8093. https://doi.org/10.1109/TPAMI.2022.3228874  
+
+### Statistical Baselines
+In addition to ML models, we also implemented **Bayesian G/LMMs** as statistical baselines for both classification and regression tasks.  
+- Implemented using the **`MCMCglmm`** and **`nlme`** packages in R  
+- Scripts for these models are provided in separate `.R` files  
+
+---
+
+! The dataset is not included, as it is still unpublished.  
 
 # A Mixed-Effects Machine Learning Approach for Forecasting Mental Health in Student Populations  
 
