@@ -1,5 +1,6 @@
 The repository contains the code used in my dissertation thesis.  
-It includes separate Jupyter notebooks for each architecture and each task type (**classification vs. regression**).  
+It includes separate Jupyter notebooks for each architecture and each task type (**classification vs. regression**). 
+
 
 ### Machine Learning Architectures
 Two machine learning architectures are compared:  
@@ -14,9 +15,14 @@ In addition to ML models, we also implemented **Bayesian G/LMMs** as statistical
 - Implemented using the **`MCMCglmm`** and **`nlme`** packages in R  
 - Scripts for these models are provided in separate `.R` files  
 
----
-
 ! The dataset is not included, as it is still unpublished.  
+
+### GUI Application
+A basic **GUI application** written in raw Python is provided in the dedicated folder.  
+- Runs the newly proposed models  
+- Includes a `data/` subfolder with a **sample dataset** for demonstration purposes  
+
+⚠️ The main dataset used in the thesis is not included, as it is still unpublished. 
 
 # A Mixed-Effects Machine Learning Approach for Forecasting Mental Health in Student Populations  
 
